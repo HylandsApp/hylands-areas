@@ -4,4 +4,4 @@ metadata:
 behaviors:
   progressive-respawn:
     interval: 20
-script: "hylands"
+# script: "hylands"
