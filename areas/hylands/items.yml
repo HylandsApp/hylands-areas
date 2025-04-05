@@ -1,0 +1,110 @@
+- id: "evermarshPostcard"
+  name: "Evermarsh Postcard"
+  type: OBJECT
+  roomDesc: "A postcard of some sort"
+  keywords: [ "postcard", "evermarsh", "paper" ]
+  description: "A postcard from Evermarsh. It's a beautiful."
+  metadata:
+    level: 1
+    itemLevel: 1
+    quality: common
+- id: "palamariaPostcard"
+  name: "Palamaria Postcard"
+  type: OBJECT
+  roomDesc: "A postcard of some sort"
+  keywords: [ "postcard", "palamaria", "paper" ]
+  description: "A postcard from Palamaria. It's a ok."
+  metadata:
+    level: 1
+    itemLevel: 1
+    quality: common 
+- id: "residiaPostcard"
+  name: "Residia Postcard"
+  type: OBJECT
+  roomDesc: "A postcard of some sort"
+  keywords: [ "postcard", "residia", "paper" ]
+  description: "A postcard from Residia. It's a awesome."
+  metadata:
+    level: 1
+    itemLevel: 1
+    quality: common        
+- id: "evermarshChest"
+  type: CONTAINER
+  name: "Evermarsh Chest"
+  roomDesc: "A wooden chest with intricate designs from the Evermarsh region."
+  keywords: [ "wooden", "chest" ]
+  description: "Covered in Evermarshian markings, this chest is closed and latched."
+  items: [ "hylands:evermarshPostcard" ]
+  closed: true
+  locked: false  
+  maxItems: 99
+  metadata:
+    noPickup: true
+- id: "palamariaChest"
+  type: CONTAINER
+  name: "Palamaria Chest"
+  roomDesc: "A wooden chest with intricate designs from the Palamaria region."
+  keywords: [ "wooden", "chest" ]
+  description: "Covered in Palamarian markings, this chest is closed and latched."
+  items: [ "hylands:palamariaPostcard" ]
+  closed: true
+  locked: false  
+  maxItems: 99
+  metadata:
+    noPickup: true    
+- id: residianChest
+  type: CONTAINER
+  name: "Residian Chest"
+  roomDesc: "A wooden chest with intricate designs from the Residia region. It's locked."
+  keywords: [ "locked", "wooden", "chest" ]
+  items: [ "hylands:residianChest" ]
+  closed: true
+  locked: true
+  lockedBy: "hylands:residianChestKey"
+  maxItems: 5
+  metadata:
+    noPickup: true
+- id: residianChestKey
+  name: "Residian Chest Key"
+  keywords: ["key", "residian", "chest"]
+  roomDesc: "A key with intricate designs from the Residia region."
+  description: "A metallic key with complex grooves."
+  metadata:
+    quality: common     
+- id: palamarianChestArmor
+  name: "Palamarian Chest Armor"
+  type: ARMOR
+  roomDesc: "Palamarian Chest Armor"
+  keywords: ["armor", "palamarian", "chest"]
+  description: "An armor made from the finest materials of the Palamarian region."
+  metadata:
+    quality: uncommon
+    slot: "chest"
+    level: 1
+    itemLevel: 1
+    stats:
+      armor: 20
+    sellable:
+      value: 30
+      currency: gold    
+- id: residianSword
+  name: "Residian Sword"
+  type: WEAPON
+  roomDesc: "Residian Sword"
+  keywords: ["sword", "residian", "metal"]
+  description: "A sword made from the finest materials of the Residia region."
+  metadata:
+    quality: rare
+    slot: "wield"
+    itemLevel: 10
+    level: 5
+    minDamage: 11
+    maxDamage: 20
+    speed: 5
+    stats:
+      strength: 2
+      stamina: 2
+      critical: -1
+    sellable:
+      value: 30
+      currency: gold

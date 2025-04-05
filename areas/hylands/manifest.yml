@@ -1,0 +1,7 @@
+title: "Hylands"
+metadata:
+  testVar: "custom data goes here"
+behaviors:
+  progressive-respawn:
+    interval: 20
+script: "hylands"

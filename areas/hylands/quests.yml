@@ -1,0 +1,108 @@
+---
+- id: journeybegins
+  title: "Collect Postcards"
+  level: 1
+  autoComplete: true
+  description: |-
+    Welcome to Hylands! Collect postcards from all the lands
+     - '<white>open chest</white>' to open chests
+     - '<white>get postcard chest</white>' to take a postcard
+     - '<white>wear [item]</white>' and '<white>wield [item]</white>' equip stuff you find
+  completionMessage: |-
+    You collected all the postcards!
+    <b>'<white>tnl</white>' or '<white>level</white>' to see how much experience you need to level</b>
+    <b>'<white>quest list [creature/npc]</white>' to see a creature or NPCs quests. Use '<white>quest start [quest name]</white>' to accept a quest</b>
+  goals:
+    - type: FetchGoal
+      config:
+        title: Collect a postcard from Evermarsh
+        count: 1
+        item: 'hylands:evermarshPostcard'
+    - type: FetchGoal
+      config:
+        title: Collect a postcard from Palamaria
+        count: 1
+        item: 'hylands:palamariaPostcard'
+    - type: FetchGoal
+      config:
+        title: Collect a postcard from Residia
+        count: 1
+        item: 'hylands:residiaPostcard'
+  rewards:
+    - type: ExperienceReward
+      config:
+        amount: 50
+        leveledTo: QUEST
+    - type: CurrencyReward
+      config:
+        currency: gold
+        amount: 100
+- id: collectEvermarshPostcard
+  title: "Collect Postcard from Evermarsh"
+  level: 1
+  autoComplete: true
+  description: |-
+    Collect a postcard from Evermarsh
+  completionMessage: |-
+    You collected a postcard from Evermarsh!
+  goals:
+    - type: FetchGoal
+      config:
+        title: Collect a postcard from Evermarsh
+        count: 1
+        item: 'hylands:evermarshPostcard'
+  rewards:
+    - type: ExperienceReward
+      config:
+        amount: 10
+        leveledTo: QUEST
+    - type: CurrencyReward
+      config:
+        currency: gold
+        amount: 5
+- id: collectPalamariaPostcard
+  title: "Collect Postcard from Palamaria"
+  level: 1
+  autoComplete: true
+  description: |-
+    Collect a postcard from Palamaria
+  completionMessage: |-
+    You collected a postcard from Palamaria!
+  goals:
+    - type: FetchGoal
+      config:
+        title: Collect a postcard from Palamaria
+        count: 1
+        item: 'hylands:palamariaPostcard'
+  rewards:
+    - type: ExperienceReward
+      config:
+        amount: 10
+        leveledTo: QUEST
+    - type: CurrencyReward
+      config:
+        currency: gold
+        amount: 5
+- id: collectResidiaPostcard
+  title: "Collect Postcard from Residia"
+  level: 1
+  autoComplete: true
+  description: |-
+    Collect a postcard from Residia
+  completionMessage: |-
+    You collected a postcard from Residia!
+  goals:
+    - type: FetchGoal
+      config:
+        title: Collect a postcard from Residia
+        count: 1
+        item: 'hylands:residiaPostcard'
+  rewards:
+    - type: ExperienceReward
+      config:
+        amount: 10
+        leveledTo: QUEST
+    - type: CurrencyReward
+      config:
+        currency: gold
+        amount: 5

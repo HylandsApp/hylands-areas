@@ -1,0 +1,245 @@
+- id: evermarshGuide
+  keywords: ['guide']
+  name: Evermarsh Guide
+  level: 2
+  description: "The Evermarsh Guide is a tall, thin man with a kind face. He is wearing a blue cloak and a wide-brimmed hat."
+  script: 'evermarshGuide'
+  quests: ['hylands:collectEvermarshPostcard']
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100
+- id: palamariaGuide
+  keywords: ['guide']
+  name: Palamaria Guide
+  level: 2
+  description: "The Palamaria Guide is a rough looking palace guard."
+  script: 'palamariaGuide'
+  quests: ['hylands:collectPalamariaPostcard']
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100
+- id: residiaGuide
+  keywords: ['guide']
+  name: Residia Guide
+  level: 2
+  description: "The Residia Guide is a old man in a prisoners uniform."
+  script: 'residiaGuide'
+  quests: ['hylands:collectResidiaPostcard']
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100
+- id: atlasarGuide
+  keywords: ['guide']
+  name: Atlasar Guide
+  level: 2
+  description: "The Atlasar Guide is [description here]."
+  script: 'atlasarGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100
+- id: clyburnGuide
+  keywords: ['guide']
+  name: Clyburn Guide
+  level: 2
+  description: "The Clyburn Guide is [description here]."
+  script: 'clyburnGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100
+- id: dyonosticaGuide
+  keywords: ['guide']
+  name: Dyonostica Guide
+  level: 2
+  description: "The Dyonostica Guide is [description here]."
+  script: 'dyonosticaGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100
+- id: greenspanceGuide
+  keywords: ['guide']
+  name: Greenspance Guide
+  level: 2
+  description: "The Greenspance Guide is [description here]."
+  script: 'greenspanceGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100
+- id: hypathicaGuide
+  keywords: ['guide']
+  name: Hypathica Guide
+  level: 2
+  description: "The Hypathica Guide is [description here]."
+  script: 'hypathicaGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100
+- id: hyperthaGuide
+  keywords: ['guide']
+  name: Hypertha Guide
+  level: 2
+  description: "The Hypertha Guide is [description here]."
+  script: 'hyperthaGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100
+- id: idofexGuide
+  keywords: ['guide']
+  name: Idofex Guide
+  level: 2
+  description: "The Idofex Guide is [description here]."
+  script: 'idofexGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100    
+- id: korinnessGuide
+  keywords: ['guide']
+  name: Korinness Guide
+  level: 2
+  description: "The Korinness Guide is [description here]."
+  script: 'korinnessGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100    
+- id: lystialGuide
+  keywords: ['guide']
+  name: Lystial Guide
+  level: 2
+  description: "The Lystial Guide is [description here]."
+  script: 'lystialGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100    
+- id: magniriaGuide
+  keywords: ['guide']
+  name: Magniria Guide
+  level: 2
+  description: "The Magniria Guide is [description here]."
+  script: 'magniriaGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100    
+- id: nafoldaGuide
+  keywords: ['guide']
+  name: NaFolda Guide
+  level: 2
+  description: "The NaFolda Guide is [description here]."
+  script: 'nafoldaGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100    
+- id: northernResidiaGuide
+  keywords: ['guide']
+  name: Northern Residia Guide
+  level: 2
+  description: "The Northern Residia Guide is [description here]."
+  script: 'northernResidiaGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100    
+- id: southernGreenspanceGuide
+  keywords: ['guide']
+  name: Southern Greenspance Guide
+  level: 2
+  description: "The Southern Greenspance Guide is [description here]."
+  script: 'southernGreenspanceGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100  
+- id: stampusGuide
+  keywords: ['guide']
+  name: Stampus Guide
+  level: 2
+  description: "The Stampus Guide is [description here]."
+  script: 'stampusGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100    
+- id: talondraGuide
+  keywords: ['guide']
+  name: Talondra Guide
+  level: 2
+  description: "The Talondra Guide is [description here]."
+  script: 'talondraGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100   
+- id: tetraGuide
+  keywords: ['guide']
+  name: Tetra Guide
+  level: 2
+  description: "The Tetra Guide is [description here]."
+  script: 'tetraGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100        
+- id: valtpeakGuide
+  keywords: ['guide']
+  name: Valtpeak Guide
+  level: 2
+  description: "The Valtpeak Guide is [description here]."
+  script: 'valtpeakGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100    
+- id: vanArchGuide
+  keywords: ['guide']
+  name: VanArch Guide
+  level: 2
+  description: "The VanArch Guide is [description here]."
+  script: 'vanArchGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100    
+- id: wandwornGuide
+  keywords: ['guide']
+  name: Wandworn Guide
+  level: 2
+  description: "The Wandworn Guide is [description here]."
+  script: 'wandwornGuide'
+  behaviors:
+    combat: false
+  attributes:
+    health: 100
+    energy: 100    

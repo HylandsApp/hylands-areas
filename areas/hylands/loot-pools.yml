@@ -1,0 +1,6 @@
+---
+potions:
+  - "hylands:potionhealth1": 10
+  - "hylands:potionstrength1": 5
+junk:
+  - "hylands:scraps": 50

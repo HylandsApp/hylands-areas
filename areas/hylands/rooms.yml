@@ -1,0 +1,677 @@
+#  0,0,0 - Evermarsh
+- id: evermarsh
+  title: Evermarsh
+  coordinates: [0, 0, 0]
+  description: >-
+    You look down upon Evermarsh. It is a marshy lowlands at the eastern most edge of the land of Primera.
+  npcs: ["hylands:evermarshGuide" ]
+  items:
+    - id: "hylands:evermarshChest"
+      respawnChance: 20
+      replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "evermarsh"
+
+#  -1,0,0 - Palamaria
+- id: palamaria
+  title: Palamaria
+  coordinates: [-1, 0, 0]
+  description: "You look down upon Palamaria. It is a hilly grassland full of streams and fields."
+  npcs: ["hylands:palamariaGuide" ]
+  items:
+    - id: "hylands:palamariaChest"
+      respawnChance: 20
+      replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "palamaria"
+
+#  -2,0,0 - Clyburn
+- id: clyburn
+  title: Clyburn
+  coordinates: [-2, 0, 0]
+  description: "You look down upon Clyburn. It is a trecherous mountain range culminating in the north at the peak of Mount Eternium."
+  npcs: ["hylands:clyburnGuide" ]
+  # items:
+  #   - id: "hylands:clyburnChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "clyburn"
+
+#  -3,0,0 - Dyonostica
+- id: dyonostica
+  title: Dyonostica
+  coordinates: [-3, 0, 0]
+  description: "You look down upon Dyonostica. It is a thickly forested region that sits at the foot of the Clyburn mountains to the east, and the Atlasar mountains to the south."
+  npcs: ["hylands:dyonosticaGuide" ]
+  # items:
+  #   - id: "hylands:dyonosticaChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "dyonostica"
+
+#  -4,0,0 - Mistrinz Sea
+- id: mistrinz-sea-4
+  title: Mistrinz Sea
+  coordinates: [-4, 0, 0]
+  description: "You look down upon Mistrinz Sea. It is a vast ocean that stretches to the west, and is bordered by the land of Primera to the east." 
+  script: "mistrinz"
+
+#  1,0,0 - Lasarian Sea
+- id: lasarian-sea-4
+  title: Lasarian Sea
+  coordinates: [1, 0, 0]
+  description: "You look down upon Lasarian Sea. It is a vast ocean that divides the land of Primera and the land of Persephon."
+  script: "lasarian"
+
+#  2,0,0 - Magniria
+- id: magniria
+  title: Magniria
+  coordinates: [2, 0, 0]
+  description: "You look down upon Magniria."
+  npcs: ["hylands:magniriaGuide" ]
+  # items:
+  #   - id: "hylands:magniriaChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "magniria"
+
+#  3,0,0 - Wastelands
+- id: wastelands-1
+  title: Wastelands
+  coordinates: [3, 0, 0]
+  description: "You look down upon the Wasteland. It is filled with danger and peril." 
+  script: "wastelands"
+
+#  4,0,0 - Blisinax Sea
+- id: blisinax-sea-5
+  title: Blisinax Sea
+  coordinates: [4, 0, 0]
+  description: "You look down upon Blisinax Sea. It is a vast ocean that stretches to the east, and is bordered by the land of Persephon to the west."
+  script: "blisinax"
+
+#  0,1,0 - Lasarian Sea
+- id: lasarian-sea-2
+  title: Lasarian Sea
+  coordinates: [0, 1, 0]
+  description: "You look down upon Lasarian Sea. It is a vast ocean that divides the land of Primera and the land of Persephon."
+  script: "lasarian"
+
+#  -1,1,0 - Residia
+- id: residia
+  title: Residia
+  coordinates: [-1, 1, 0]
+  description: "You look down upon Residia."
+  npcs: ["hylands:residiaGuide" ]
+  # items:
+  #   - id: "hylands:residianChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "residia"
+
+#  -2,1,0 - Valtpeak
+- id: valtpeak
+  title: Valtpeak
+  coordinates: [-2, 1, 0]
+  description: "You look down upon Valtpeak."
+  npcs: ["hylands:valtpeakGuide" ]
+  # items:
+  #   - id: "hylands:valtpeakChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "valtpeak"
+
+#  -3,1,0 - Mistrinz Sea
+- id: mistrinz-sea-3
+  title: Mistrinz Sea
+  coordinates: [-3, 1, 0]
+  description: "You look down upon Mistrinz Sea. It is a vast ocean that stretches to the west, and is bordered by the land of Primera to the east."
+  script: "mistrinz"
+
+#  -4,1,0 - Mistrinz Sea
+- id: mistrinz-sea-2
+  title: Mistrinz Sea
+  coordinates: [-4, 1, 0]
+  description: "You look down upon Mistrinz Sea. It is a vast ocean that stretches to the west, and is bordered by the land of Primera to the east."
+  script: "mistrinz"
+
+#  1,1,0 - Lasarian Sea
+- id: lasarian-sea-3
+  title: Lasarian Sea
+  coordinates: [1, 1, 0]
+  description: "You look down upon Lasarian Sea. It is a vast ocean that divides the land of Primera and the land of Persephon."
+  script: "lasarian"
+
+#  2,1,0 - Stampus
+- id: stampus
+  title: Stampus
+  coordinates: [2, 1, 0]
+  description: "You look down upon Stampus."
+  npcs: ["hylands:stampusGuide" ]
+  # items:
+  #   - id: "hylands:stampusChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "stampus"
+
+#  3,1,0 - Blisinax Sea
+- id: blisinax-sea-3
+  title: Blisinax Sea
+  coordinates: [3, 1, 0]
+  description: "You look down upon Blisinax Sea. It is a vast ocean that stretches to the east, and is bordered by the land of Persephon to the west."
+  script: "blisinax"
+
+#  4,1,0 - Blisinax Sea
+- id: blisinax-sea-4
+  title: Blisinax Sea
+  coordinates: [4, 1, 0]
+  description: "You look down upon Blisinax Sea. It is a vast ocean that stretches to the east, and is bordered by the land of Persephon to the west."
+  script: "blisinax"
+
+#  0,2,0 - Lasarian Sea
+- id: lasarian-sea-1
+  title: Lasarian Sea
+  coordinates: [0, 2, 0]
+  description: "You look down upon Lasarian Sea. It is a vast ocean that divides the land of Primera and the land of Persephon."
+  script: "lasarian"
+
+#  -1,2,0 - Northern Residia
+- id: northern-residia
+  title: Northern Residia
+  coordinates: [-1, 2, 0]
+  description: "You look down upon Northern Residia."
+  npcs: ["hylands:northernResidiaGuide" ]
+  # items:
+  #   - id: "hylands:northernResidiaChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "northernResidia"
+
+#  -2,2,0 - Talondra
+- id: talondra
+  title: Talondra
+  coordinates: [-2, 2, 0]
+  description: "You look down upon Talondra."
+  npcs: ["hylands:talondraGuide" ]
+  # items:
+  #   - id: "hylands:talondraChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "talondra"
+
+#  -3,2,0 - Wandworn
+- id: wandworn
+  title: Wandworn
+  coordinates: [-3, 2, 0]
+  description: "You look down upon Wandworn."
+  npcs: ["hylands:wandwornGuide" ]
+  # items:
+  #   - id: "hylands:wandwornChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "wandworn"
+
+#  -4,2,0 - Mistrinz Sea
+- id: mistrinz-sea-1
+  title: Mistrinz Sea
+  coordinates: [-4, 2, 0]
+  description: "You look down upon Mistrinz Sea. It is a vast ocean that stretches to the west, and is bordered by the land of Primera to the east."
+  script: "mistrinz"
+
+#  1,2,0 - Van Arch
+- id: van-arch
+  title: Van Arch
+  coordinates: [1, 2, 0]
+  description: "You look down upon Van Arch."
+  npcs: ["hylands:vanArchGuide" ]
+  # items:
+  #   - id: "hylands:vanArchChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "vanArch"
+
+#  2,2,0 - Hypertha
+- id: hypertha
+  title: Hypertha
+  coordinates: [2, 2, 0]
+  description: "You look down upon Hypertha."
+  npcs: ["hylands:hyperthaGuide" ]
+  # items:
+  #   - id: "hylands:hyperthaChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "hypertha"  
+
+#  3,2,0 - Blisinax Sea
+- id: blisinax-sea-1
+  title: Blisinax Sea
+  coordinates: [3, 2, 0]
+  description: "You look down upon Blisinax Sea. It is a vast ocean that stretches to the east, and is bordered by the land of Persephon to the west."
+  script: "blisinax"
+
+#  4,2,0 - Blisinax Sea
+- id: blisinax-sea-2
+  title: Blisinax Sea
+  coordinates: [4, 2, 0]
+  description: "You look down upon Blisinax Sea. It is a vast ocean that stretches to the east, and is bordered by the land of Persephon to the west."
+  script: "blisinax"
+
+#  0,3,0 - Lasarian Sea
+- id: arkthon-sea-13
+  title: Arkthon Sea
+  coordinates: [0, 3, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "lasarian"
+
+#  -1,3,0 - Arkthon Sea
+- id: arkthon-sea-12
+  title: Arkthon Sea
+  coordinates: [-1, 3, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  -2,3,0 - Hypathica
+- id: hypathica
+  title: Hypathica
+  coordinates: [-2, 3, 0]
+  description: "You look down upon Hypathica."
+  npcs: ["hylands:hypathicaGuide" ]
+  # items:
+  #   - id: "hylands:hypathicaChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "hypathica"
+
+#  -3,3,0 - Arkthon Sea
+- id: arkthon-sea-11
+  title: Arkthon Sea
+  coordinates: [-3, 3, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  -4,3,0 - Arkthon Sea
+- id: arkthon-sea-10
+  title: Arkthon Sea
+  coordinates: [-4, 3, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  1,3,0 - Lystial
+- id: lystial
+  title: Lystial
+  coordinates: [1, 3, 0]
+  description: "You look down upon Lystial."
+  npcs: ["hylands:lystialGuide" ]
+  # items:
+  #   - id: "hylands:lystialChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "lystial"
+
+#  2,3,0 - Arkthon Sea
+- id: arkthon-sea-14
+  title: Arkthon Sea
+  coordinates: [2, 3, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  3,3,0 - Arkthon Sea
+- id: arkthon-sea-15
+  title: Arkthon Sea
+  coordinates: [3, 3, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  4,3,0 - Arkthon Sea
+- id: arkthon-sea-16
+  title: Arkthon Sea
+  coordinates: [4, 3, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  0,4,0 - Arkthon Sea
+- id: arkthon-sea-5
+  title: Arkthon Sea
+  coordinates: [0, 4, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  -1,4,0 - Arkthon Sea
+- id: arkthon-sea-4
+  title: Arkthon Sea
+  coordinates: [-1, 4, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  -2,4,0 - Arkthon Sea
+- id: arkthon-sea-3
+  title: Arkthon Sea
+  coordinates: [-2, 4, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  -3,4,0 - Arkthon Sea
+- id: arkthon-sea-2
+  title: Arkthon Sea
+  coordinates: [-3, 4, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  -4,4,0 - Arkthon Sea
+- id: arkthon-sea-1
+  title: Arkthon Sea
+  coordinates: [-4, 4, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  1,4,0 - Arkthon Sea
+- id: arkthon-sea-6
+  title: Arkthon Sea
+  coordinates: [1, 4, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  2,4,0 - Arkthon Sea
+- id: arkthon-sea-7
+  title: Arkthon Sea
+  coordinates: [2, 4, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  3,4,0 - Arkthon Sea
+- id: arkthon-sea-8
+  title: Arkthon Sea
+  coordinates: [3, 4, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  4,4,0 - Arkthon Sea
+- id: arkthon-sea-9
+  title: Arkthon Sea
+  coordinates: [4, 4, 0]
+  description: "You look down upon Arkthon Sea. It is a vast ocean that stretches across the north, and is bordered by the lands of Primera and Persephon to the south."
+  script: "arkthon"
+
+#  0,-1,0 - Lasarian Sea
+- id: lasarian-sea-6
+  title: Lasarian Sea
+  coordinates: [0, -1, 0]
+  description: "You look down upon Lasarian Sea. It is a vast ocean that divides the land of Primera and the land of Persephon."
+  script: "lasarian"
+
+#  -1,-1,0 - Lasarian Sea
+- id: lasarian-sea-7
+  title: Lasarian Sea
+  coordinates: [-1, -1, 0]
+  description: "You look down upon Lasarian Sea. It is a vast ocean that divides the land of Primera and the land of Persephon."
+  script: "lasarian"
+
+#  -2,-1,0 - Greenspance
+- id: greenspance
+  title: Greenspance
+  coordinates: [-2, -1, 0]
+  description: "You look down upon Greenspance."
+  npcs: ["hylands:greenspanceGuide" ]
+  # items:
+  #   - id: "hylands:greenspanceChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "greenspance"
+
+#  -3,-1,0 - Atlasar
+- id: atlasar
+  title: Atlasar
+  coordinates: [-3, -1, 0]
+  description: "You look down upon Atlasar."
+  npcs: ["hylands:atlasarGuide" ]
+  # items:
+  #   - id: "hylands:atlasarChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "atlasar"
+
+#  -4,-1,0 - Mistrinz Sea
+- id: mistrinz-sea-5
+  title: Mistrinz Sea
+  coordinates: [-4, -1, 0]
+  description: "You look down upon Mistrinz Sea. It is a vast ocean that stretches to the west, and is bordered by the land of Primera to the east."
+  script: "mistrinz"
+
+#  1,-1,0 - Lasarian Sea
+- id: lasarian-sea-5
+  title: Lasarian Sea
+  coordinates: [1, -1, 0]
+  description: "You look down upon Lasarian Sea. It is a vast ocean that divides the land of Primera and the land of Persephon."
+  script: "lasarian"
+
+#  2,-1,0 - Korinness
+- id: korinness
+  title: Korinness
+  coordinates: [2, -1, 0]
+  description: "You look down upon Korinness."
+  npcs: ["hylands:korinnessGuide" ]
+  # items:
+  #   - id: "hylands:korinnessChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "korinness"
+
+#  3,-1,0 - Blisinax Sea
+- id: blisinax-sea-6
+  title: Blisinax Sea
+  coordinates: [3, -1, 0]
+  description: "You look down upon Blisinax Sea. It is a vast ocean that stretches to the east, and is bordered by the land of Persephon to the west."
+  script: "blisinax"
+
+#  4,-1,0 - Blisinax Sea
+- id: blisinax-sea-7
+  title: Blisinax Sea
+  coordinates: [4, -1, 0]
+  description: "You look down upon Blisinax Sea. It is a vast ocean that stretches to the east, and is bordered by the land of Persephon to the west."
+  script: "blisinax"
+
+#  0,-2,0 - Lasarian Sea
+- id: lasarian-sea-8
+  title: Lasarian Sea
+  coordinates: [0, -2, 0]
+  description: "You look down upon Lasarian Sea. It is a vast ocean that divides the land of Primera and the land of Persephon."
+  script: "lasarian"
+
+#  -1,-2,0 - Southern Greenspance
+- id: southern-greenspance
+  title: Southern Greenspance
+  coordinates: [-1, -2, 0]
+  description: "You look down upon Southern Greenspance."
+  npcs: ["hylands:southernGreenspanceGuide" ]
+  # items:
+  #   - id: "hylands:southernGreenspanceChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "southernGreenspance"
+
+#  -2,-2,0 - Mistrinz Sea
+- id: mistrinz-sea-7
+  title: Mistrinz Sea
+  coordinates: [-2, -2, 0]
+  description: "You look down upon Mistrinz Sea. It is a vast ocean that stretches to the west, and is bordered by the land of Primera to the east."
+  script: "mistrinz"
+
+#  -3,-2,0 - Idofex
+- id: idofex
+  title: Idofex
+  coordinates: [-3, -2, 0]
+  description: "You look down upon Idofex."
+  npcs: ["hylands:idofexGuide" ]
+  # items:
+  #   - id: "hylands:idofexChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "idofex"
+
+#  -4,-2,0 - Mistrinz Sea
+- id: mistrinz-sea-6
+  title: Mistrinz Sea
+  coordinates: [-4, -2, 0]
+  description: "You look down upon Mistrinz Sea. It is a vast ocean that stretches to the west, and is bordered by the land of Primera to the east."
+  script: "mistrinz"
+
+#  1,-2,0 - NaFolda
+- id: nafolda
+  title: NaFolda
+  coordinates: [1, -2, 0]
+  description: "You look down upon NaFolda."
+  npcs: ["hylands:nafoldaGuide" ]
+  # items:
+  #   - id: "hylands:nafoldaChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "nafolda"
+
+#  2,-2,0 - Wastelands
+- id: wastelands-2
+  title: Wastelands
+  coordinates: [2, -2, 0]
+  description: "You look down upon the Wasteland. It is filled with danger and peril."
+  script: "wastelands"
+
+#  3,-2,0 - Wastelands
+- id: wastelands-3
+  title: Wastelands
+  coordinates: [3, -2, 0]
+  description: "You look down upon the Wasteland. It is filled with danger and peril."
+  script: "wastelands"
+
+#  4,-2,0 - Blisinax Sea
+- id: blisinax-sea-8
+  title: Blisinax Sea
+  coordinates: [4, -2, 0]
+  description: "You look down upon Blisinax Sea. It is a vast ocean that stretches to the east, and is bordered by the land of Persephon to the west."
+  script: "blisinax"
+
+#  0,-3,0 - Ampramass Sea
+- id: ampramass-sea-5
+  title: Ampramass Sea
+  coordinates: [0, -3, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  -1,-3,0 - Ampramass Sea
+- id: ampramass-sea-4
+  title: Ampramass Sea
+  coordinates: [-1, -3, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  -2,-3,0 - Ampramass Sea
+- id: ampramass-sea-3
+  title: Ampramass Sea
+  coordinates: [-2, -3, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  -3,-3,0 - Ampramass Sea
+- id: ampramass-sea-2
+  title: Ampramass Sea
+  coordinates: [-3, -3, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  -4,-3,0 - Ampramass Sea
+- id: ampramass-sea-1
+  title: Ampramass Sea
+  coordinates: [-4, -3, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  1,-3,0 - Wastelands
+- id: wastelands-4
+  title: Wastelands
+  coordinates: [1, -3, 0]
+  description: "You look down upon the Wasteland. It is filled with danger and peril."
+  script: "wastelands"
+
+#  2,-3,0 - Wastelands
+- id: wastelands-5
+  title: Wastelands
+  coordinates: [2, -3, 0]
+  description: "You look down upon the Wasteland. It is filled with danger and peril."
+  script: "wastelands"
+
+#  3,-3,0 - Tetra
+- id: tetra
+  title: Tetra
+  coordinates: [3, -3, 0]
+  description: "You look down upon Tetra."
+  npcs: ["hylands:tetraGuide" ]
+  # items:
+  #   - id: "hylands:tetraChest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+  script: "tetra"
+
+#  4,-3,0 - Blisinax Sea
+- id: blisinax-sea-9
+  title: Blisinax Sea
+  coordinates: [4, -3, 0]
+  description: "You look down upon Blisinax Sea. It is a vast ocean that stretches to the east, and is bordered by the land of Persephon to the west."
+  script: "blisinax"
+
+#  0,-4,0 - Ampramass Sea
+- id: ampramass-sea-11
+  title: Ampramass Sea
+  coordinates: [0, -4, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  -1,-4,0 - Ampramass Sea
+- id: ampramass-sea-10
+  title: Ampramass Sea
+  coordinates: [-1, -4, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  -2,-4,0 - Ampramass Sea
+- id: ampramass-sea-9
+  title: Ampramass Sea
+  coordinates: [-2, -4, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  -3,-4,0 - Ampramass Sea
+- id: ampramass-sea-8
+  title: Ampramass Sea
+  coordinates: [-3, -4, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  -4,-4,0 - Ampramass Sea
+- id: ampramass-sea-7
+  title: Ampramass Sea
+  coordinates: [-4, -4, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  1,-4,0 - Ampramass Sea
+- id: ampramass-sea-12
+  title: Ampramass Sea
+  coordinates: [1, -4, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  2,-4,0 - Ampramass Sea
+- id: ampramass-sea-13
+  title: Ampramass Sea
+  coordinates: [2, -4, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  3,-4,0 - Ampramass Sea
+- id: ampramass-sea-14
+  title: Ampramass Sea
+  coordinates: [3, -4, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
+
+#  4,-4,0 - Ampramass Sea
+- id: ampramass-sea-15
+  title: Ampramass Sea
+  coordinates: [4, -4, 0]
+  description: "You look down upon Ampramass Sea. It is a vast frigid ocean that stretches across the south, and is bordered by the lands of Primera and Persephon to the north."
+  script: "ampramass"
