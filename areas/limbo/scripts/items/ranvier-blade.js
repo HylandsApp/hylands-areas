@@ -1,7 +1,5 @@
 'use strict';
 
-const { Random } = require('rando-js');
-
 const { Broadcast, Heal } = require('ranvier');
 
 /**
@@ -19,7 +17,7 @@ module.exports = {
       // !== this` otherwise you could create an infinite loop the weapon's own damage triggering
       // its script
 
-      if (Random.probability(50)) {
+      if (Math.random() < 0.5) {  // 50% chance
         const amount = damage.metadata.critical ?
           damage.attacker.getMaxAttribute('health') :
           Math.floor(finalAmount / 4);
