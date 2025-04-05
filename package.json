@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "bundle-example-areas",
+  "name": "hylands-areas",
   "version": "1.0.0",
-  "description": "Example Ranvier areas",
+  "description": "Hylands areas",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RanvierMUD/bundle-example-areas.git"
+    "url": "git+https://github.com/HylandsApp/hylands-areas.git"
   },
   "author": "Shawn Biddle <shawncplus@gmail.com>",
   "license": "MIT",
