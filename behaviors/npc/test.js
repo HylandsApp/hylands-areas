@@ -5,11 +5,11 @@ const { Logger } = require('ranvier');
 module.exports = {
   listeners: {
     spawn: state => function () {
-      Logger.log(`${this.name} spawned into room ${this.room.title}`);
+      Logger.log(`${this.name} spawned into ${this.room.title}`);
     },
 
     playerEnter: state => function (player) {
-      Logger.log(`${this.name} noticed ${player.name} enter room`);
+      Logger.log(`${this.name} noticed ${player.name} enter ${this.room.title}`);
     },
 
     playerLeave: state => function (target, destination) {
@@ -33,7 +33,7 @@ module.exports = {
     },
 
     npcEnter: state => function (target) {
-      Logger.log(`${target.name} entered same room as ${this.name}`);
+      Logger.log(`${target.name} entered same region as ${this.name}`);
     },
   }
 };
