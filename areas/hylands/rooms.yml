@@ -8,7 +8,7 @@
   items:
     - id: "hylands:evermarshChest"
       respawnChance: 20
-      replaceOnRespawn: true # when this respawns completely replace it so its contents get refreshed  
+      replaceOnRespawn: true
   script: "evermarsh"
 
 #  -1,0,0 - Palamaria
